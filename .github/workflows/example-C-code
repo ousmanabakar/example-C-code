@@ -33,7 +33,7 @@ int main()
 
     }
     else{
-		printf	
-
+	    printf("yanlis bir sayi girdini");
+    }
     return 0;
 }
