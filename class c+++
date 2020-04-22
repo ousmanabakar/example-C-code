@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+class Person
+{
+    
+public:
+    string isim;
+    string soyisim;
+    string gorev;
+    int yas;
+};
+
+int main() {
+       
+    Person p1;
+    
+    p1.isim = "ousman";
+    p1.soyisim = "abakar";
+    p1.gorev = "Ogrenci";
+    p1.yas = 20;
+
+    cout << "1. person adi: " << p1.isim << endl;
+    cout << "1. person soyadi: " << p1.soyisim << endl;
+    cout << "1. person gorevi: " << p1.gorev << endl;
+    cout << "1. person yasi: " << p1.yas << endl;
+  
+  return 0;
+  
+}
